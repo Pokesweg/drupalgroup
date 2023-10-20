@@ -1,3 +1,26 @@
+# laravelgroup
+
+Attendance (O means Present, X means Absent)
+
+| Date       | Manwinder Paul | Jennifer Kane | Nickole Carranza |
+|------------|----------------|---------------|------------------|
+| 10-13-2023 | O  | O   | O  |
+| 10-18-2023 | O  | X   | O  |
+| 10-20-2023 | -  | -  | -  |
+| 10-25-2023 | -  | -  | -  |
+| 10-27-2023 | -  | -  | -  |
+| 11-01-2023 | -  | -  | -  |
+
+
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
