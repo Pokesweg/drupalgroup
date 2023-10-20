@@ -1,6 +1,6 @@
 # laravelgroup
 
-Attendance (O means Present, X means Absent)
+Attendance (O = Present, X = Absent, L = Late )
 
 | Date       | Manwinder Paul | Jennifer Kane | Nickole Carranza |
 |------------|----------------|---------------|------------------|
