@@ -1,4 +1,4 @@
-# laravelgroup
+# drupalgroup
 
 Attendance (O = Present, X = Absent, L = Late )
 
