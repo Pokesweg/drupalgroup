@@ -1,5 +1,48 @@
 # drupalgroup
 
+Drupal with MySQL Set-Up
+
+**Step 1: Build MySQL Container**
+
+docker run --name bigsql -e MYSQL_ROOT_PASSWORD=password -d mysql:latest
+
+**Step 2: Build Drupal Container Linked to MySQL Container**
+
+docker run --name drupal --link bigsql:mysql -p 8080:80 -e MYSQL_USER=root -e MYSQL_PASSWORD=password -d drupal
+
+**Step 3: Configure Drupal Site**
+
+  a. 
+  
+  ![](1.png)
+
+  b. 
+
+  ![](2.png)
+
+  c. 
+
+  ![](3.png)
+
+
+  ![](4.png)
+
+  d.
+
+  ![](5.png)
+
+  e.
+
+  ![](6.png)
+
+  ![](7.png)
+
+**Complete!**
+  
+  ![](8.png)
+
+
+
 Attendance (O = Present, X = Absent, L = Late )
 
 | Date       | Manwinder Paul | Jennifer Kane | Nickole Carranza |
