@@ -6,11 +6,11 @@ Drupal with MySQL Set-Up
 
 **Step 1: Build MySQL Container**
 
-docker run --name bigsql -e MYSQL_ROOT_PASSWORD=password -d mysql:latest
+docker run --name <YOUR_DATABASENAME> -e MYSQL_ROOT_PASSWORD=<password> -d mysql:latest
 
 **Step 2: Build Drupal Container Linked to MySQL Container**
 
-docker run --name drupal --link bigsql:mysql -p 8080:80 -e MYSQL_USER=root -e MYSQL_PASSWORD=password -d drupal
+docker run --name drupal --link <YOUR_DATABASENAME>:mysql -p 8080:80 -e MYSQL_USER=root -e MYSQL_PASSWORD=password -d drupal
 
 **Step 3: Configure Drupal Site**
 
