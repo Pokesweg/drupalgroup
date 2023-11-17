@@ -6,7 +6,7 @@ Drupal with MySQL Set-Up
 
 **Step 1: Build MySQL Container**
 
-docker run --name <YOUR_DATABASENAME> -e MYSQL_ROOT_PASSWORD=<password> -d mysql:latest
+docker run --name <YOUR_DATABASENAME> -e MYSQL_ROOT_PASSWORD=<your_password> -d mysql:latest
 
 **Step 2: Build Drupal Container Linked to MySQL Container**
 
